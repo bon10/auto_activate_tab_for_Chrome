@@ -12,10 +12,15 @@
     <script src="main.js"></script>
    </head>
   <body>
-    自動タブ遷移<br />
-    <button id="exec" class="button">開始</button>
-    <br/>
-    <button id="stop" class="button">停止</button>
+    <h2>自動タブ遷移</h2>
+    <p><span id="state">停止中</span></p>
+    遷移の間隔(分)： <input type="text" id="timer_min" value="5"/><br/>
+    <div class="btn-box" style="padding: 10px">
+      <div class="btn blue"><a id="exec">開始</a></div>
+    </div>
+    <div class="btn-box" style="padding: 10px">
+      <div class="btn red"><a id="stop">停止</a></div>
+    </div>
     <!-- Place your content here -->
     <!-- SCRIPTS -->
      </body>

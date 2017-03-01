@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "自動的にタブを切り替えるフレンズ",
-  "version": "0.1",
-  "description": "現在開かれているタブを指定された分周期で切り替える",
+  "version": "1.0",
+  "description": "ブラウザ開かれているタブを、指定された分周期で切り替える",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
@@ -29,6 +29,7 @@
   ],
   "permissions": [
     "tabs",
+    "storage",
     "http://*/*",
     "https://*/*"
   ]
